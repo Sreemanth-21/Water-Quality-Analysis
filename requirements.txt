@@ -1,0 +1,13 @@
+# requirements.txt
+pandas
+numpy
+scikit-learn
+pycaret==3.3.2
+imblearn
+joblib
+xgboost
+lightgbm
+shap
+matplotlib
+streamlit
+Pillow
