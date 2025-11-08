@@ -1,5 +1,5 @@
 # 💧 Water Quality Analysis & Potability Prediction
-### 🔬 Machine Learning • 🤖 PyCaret • 🧠 Random Forest • 🌐 Streamlit Web App
+### Machine Learning • PyCaret • Random Forest • Streamlit Web App
 
 This project predicts **whether water is safe for drinking** using physicochemical parameters like pH, Hardness, Solids, Sulfates, and more.  
 It combines **automated ML (PyCaret)**, **manual ML (Random Forest)** and a **Streamlit web app** for real-time predictions.
@@ -65,28 +65,37 @@ ph, Hardness, Solids, Chloramines, Sulfate, Conductivity, Organic_carbon, Trihal
 # 🛠 Installation & Setup
 
 ##  1. Clone Repo
-git clone <your-repo-url>
+```bash
+git clone https://github.com/Sreemanth-21/Water-Quality-Analysis
+
 cd WaterQualityAnalysis
-
+```
 ##  2. Create Virtual Environment
+```python
 python -m venv venv
-
+```
 ##  3. Activate Environment
 
-Windows:  
+Windows:
+
+```   
 venv\Scripts\activate
+```
+Mac/Linux:
 
-Mac/Linux:  
+```  
 source venv/bin/activate
-
+```
 ## 4. Install Requirements
+```python
 pip install -r requirements.txt
-
+```
 ---
 
 # Train the Model
+```python
 python train.py
-
+```
 Outputs:
 - best_pipeline.pkl  
 - shap_summary.png  
@@ -94,14 +103,16 @@ Outputs:
 ---
 
 # Run Streamlit App
+```python
 streamlit run app.py
-
+```
 Open:
 http://localhost:8501
 
 ---
 
 # Project Structure
+```
 WaterQualityAnalysis/
 ├── train.py
 ├── app.py
@@ -110,6 +121,9 @@ WaterQualityAnalysis/
 ├── best_pipeline.pkl
 ├── shap_summary.png
 └── README.md
+```
+
+
 
 ---
 
