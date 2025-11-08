@@ -34,7 +34,7 @@ st.markdown("---")
 st.header("Model insights")
 try:
     img = Image.open("shap_summary.png")
-    st.image(img, use_column_width=True)
+    st.image(img, use_container_width=True)
 except:
     st.write("SHAP summary not available")
 st.markdown("---")
